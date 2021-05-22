@@ -1,0 +1,39 @@
+.encabezado {
+    height: 25vh;
+}
+
+.encabezado__titulo { 
+    border-radius: 25px;
+}
+.encabezado__titulo--verde {
+    background-color: aquamarine;
+}
+
+.fondo__texto--agua{
+    font-family: 'Times New Roman', Times, serif;
+    height: 10vh;
+    background-color: aqua;
+
+}
+.fondo__texto{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFBF00;
+    
+}   
+
+.mail {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+.mail__acceso {
+    height: 15vh;
+    background-color: rgb(255, 127, 234);
+}
+$h1: #FFBF00;
+
+.h1 {
+    background-color: $h1;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
