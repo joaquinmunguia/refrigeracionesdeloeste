@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "pwa-msedge",
+            "name": "node.js",
+            "request": "launch",
+            "url": "node.js"
+        }
+    ]
+}

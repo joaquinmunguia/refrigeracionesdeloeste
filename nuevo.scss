@@ -1,39 +1,25 @@
-.encabezado {
-    height: 25vh;
-}
-
-.encabezado__titulo { 
-    border-radius: 25px;
-}
-.encabezado__titulo--verde {
-    background-color: aquamarine;
-}
-
-.fondo__texto--agua{
-    font-family: 'Times New Roman', Times, serif;
-    height: 10vh;
-    background-color: aqua;
-
-}
-.fondo__texto{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #FFBF00;
-    
-}   
-
-.mail {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-
-}
-.mail__acceso {
-    height: 15vh;
-    background-color: rgb(255, 127, 234);
-}
-$h1: #FFBF00;
-
+$colortexto: #FFBF00;
+$ancho: 720px;
 .h1 {
-    background-color: $h1;
+    background-color: $colortexto;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    width: $ancho/2;
+}
+s {
+    align-items: $ancho;
+    
+}
+
+/*sass en bootstrap*/
+.carousel-control-prev {
+    left: 0;
+    background-image: repeating-linear-gradient(20deg);
+    
+    
+}
+
+.carousel-control-next {
+    right: 0;
+    
 }
