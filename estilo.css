@@ -6,13 +6,17 @@
 
 }
 */
+body {
+background-image: url(fotos/fondo.jpg);
+  
+    
+    }
 *{    
     margin:3px;
     padding:3px;
     box-sizing:border-box;
     font: size 10px;
-
-}
+  }
 
 h1 {color: #FFBF00;;
     font-family: Arial, Helvetica, sans-serif;
@@ -30,12 +34,7 @@ h1 {color: #FFBF00;;
         
 } 
 
-body {
-    background-image:url(fondo.jpg);
 
-
-    /*usado en los fondos */
-}
 p {color: #FFBF00;
 }
 
